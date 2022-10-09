@@ -1,0 +1,50 @@
+
+@font-face {
+    font-family: Ginto;
+    src: url(./Ginto.ttf);
+}
+ 
+ 
+ html, body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body {
+    background-image: linear-gradient(#5451C1, #312A97);
+    font-family: Ginto;
+  }
+
+  p {
+    margin: 10pc;
+    font-size: 2.5vh;
+    text-align: center;
+    color: white;
+
+  }
+
+  div {
+    text-align: center;
+    width: 700px;
+    height: 300px;
+    border-color: white;
+  }
+
+  a{
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+  }
+
+  button {
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    font-family: Ginto;
+    border-color: white;
+    width: 200px;
+    height: 50px;
+  }
