@@ -167,6 +167,8 @@
   }
 
 .installerTxt {
+  opacity: 0;
+  animation: fade-and-spread .5s ease-out .1s normal forwards;
   color: white;
   font-weight: bold;
   font-size: 20px;
